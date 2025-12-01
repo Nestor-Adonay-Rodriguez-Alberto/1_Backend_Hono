@@ -2,13 +2,14 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "1_backend_hono",
   "main": "src/index.ts",
-  "compatibility_date": "2025-12-01"
+  "compatibility_date": "2025-12-01",
+  "vars": {
+    "BASIC_USER": "admin",
+    "BASIC_PASSWORD": "123456"
+  }
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
